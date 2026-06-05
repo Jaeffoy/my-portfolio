@@ -1,4 +1,3 @@
-import React from 'react'
 import educ from '../assets/educprofile.png'
 import { Calendar, CheckCircle, GraduationCap } from 'lucide-react'
 

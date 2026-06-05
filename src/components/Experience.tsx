@@ -1,5 +1,4 @@
 import { Layout, Cpu, Briefcase, Building, Calendar } from 'lucide-react'
-import React from 'react'
 
 type Experience = {
   id: number

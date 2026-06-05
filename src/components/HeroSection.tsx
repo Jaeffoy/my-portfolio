@@ -1,7 +1,6 @@
 import { Download } from 'lucide-react'
 import resume from '../assets/Michael-James-Jagmoc.pdf'
 import hero from '../assets/profile.png'
-import React from 'react'
 
 export const HeroSection = () => {
   return (
