@@ -1,9 +1,15 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import { FaEnvelope, FaLinkedin, FaMapMarkedAlt, FaPhone } from 'react-icons/fa'
 import emailjs from '@emailjs/browser'
 
 
 export const ContactSection = () => {
+    const [modal, setModal] = useState({
+        show: false,
+        message: '',
+        type: 'success' as 'success' | 'error'
+    })
+
     const contactInfo = [
         {
             id: 1,
@@ -50,13 +56,21 @@ export const ContactSection = () => {
       )
       .then(
         () => {
-          alert('Message sent successfully!')
+          setModal({
+            show: true,
+            message: 'Message sent successfully!',
+            type: 'success'
+          })
           form.current?.reset()
         },
         (error) => {
-  console.error('EmailJS Error:', error)
-  alert(`Failed to send message: ${error.text || error.message}`)
-}
+          console.error(error)
+          setModal({
+            show: true,
+            message: `Failed to send message`,
+            type: 'error'
+          })
+        }
       )
   }
   return (
@@ -128,6 +142,29 @@ export const ContactSection = () => {
                 </div>
             </div>
         </div>
+            {modal.show && (
+            <div className='fixed inset-0 bg-black/60 flex items-center justify-center z-50'>
+            <div className='bg-gray-800 p-6 rounded-xl shadow-lg w-80 text-center'>
+                
+                <h2
+                className={`text-xl font-bold mb-2 ${
+                    modal.type === 'success' ? 'text-green-400' : 'text-red-400'
+                }`}
+                >
+                {modal.type === 'success' ? 'Success' : 'Error'}
+                </h2>
+
+                <p className='text-gray-300 mb-4'>{modal.message}</p>
+
+                <button
+                onClick={() => setModal({ ...modal, show: false })}
+                className='px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/80'
+                >
+                Close
+                </button>
+            </div>
+            </div>
+        )}
     </section>
   )
 }
