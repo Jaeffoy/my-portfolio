@@ -25,8 +25,9 @@ export const Experience = () => {
       date: 'July 2022 - April 2026',
       desc: [
         'Junior Software Developer with three years of hands-on experience supporting backend systems and maintaining web scrapers.',
-        'Responsible for fixing production issues, updating XPath logic, and ensuring accurate job data ingestion across platforms.',
-        'Works closely with QA and internal teams to deliver reliable solutions.',
+        'Responsible for investigating and resolving production issues using Twig templates, updating XPath logic for web scrapers, and ensuring accurate extraction and ingestion of job data from various sources.',
+        'Performed QA testing, monitored data quality, and collaborated with cross-functional teams to identify root causes and implement reliable solutions.',
+        'Worked closely with QA and internal stakeholders to deliver system enhancements, bug fixes, and continuous improvements to data processing workflows.',
       ],
     },
     {

@@ -22,7 +22,10 @@ export const HeroSection = () => {
                         </h1>
                     </div>
                     <p className='text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl'>
-                        Aspiring Software Developer seeking to leverage expertise in backend systems, web scraping, and data processing to deliver reliable, innovative solutions while continuously growing technical skills and contributing to team success.
+                        Detail-oriented professional with experience in data processing, production support, web scraping, and data integration. Possesses hands-on knowledge of modern web development technologies, including React, TypeScript, JavaScript, Tailwind CSS, and database management through personal projects and continuous learning. Demonstrates strong problem-solving, analytical, and technical skills with the ability to quickly learn new tools and technologies.
+<br/><br/>
+Adaptable and eager to contribute in various roles, including Software Development, Data Entry, Technical Support, Virtual Assistance, Quality Assurance, and Operations Support. Committed to delivering high-quality work, collaborating effectively with teams, and continuously expanding technical expertise.
+
                     </p>
                     <div className='flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max lg:mx-0'>
                         
