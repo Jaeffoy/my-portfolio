@@ -26,7 +26,9 @@ export const Experience = () => {
       desc: [
         'Junior Software Developer with three years of hands-on experience supporting backend systems and maintaining web scrapers.',
         'Responsible for investigating and resolving production issues using Twig templates, updating XPath logic for web scrapers, and ensuring accurate extraction and ingestion of job data from various sources.',
+        'Worked with ETL (Extract, Transform, Load) processes to collect, validate, transform, and load large volumes of job data into internal systems while maintaining data accuracy and integrity.',
         'Performed QA testing, monitored data quality, and collaborated with cross-functional teams to identify root causes and implement reliable solutions.',
+        'Collaborated with cross-functional teams to identify root causes, implement reliable solutions, and optimize data pipelines and system performance.',
         'Worked closely with QA and internal stakeholders to deliver system enhancements, bug fixes, and continuous improvements to data processing workflows.',
       ],
     },
