@@ -22,7 +22,7 @@ export const HeroSection = () => {
                         </h1>
                     </div>
                     <p className='text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl'>
-                        Detail-oriented professional with experience in data processing, production support, web scraping, and data integration. Possesses hands-on knowledge of modern web development technologies, including React, TypeScript, JavaScript, Tailwind CSS, and database management through personal projects and continuous learning. Demonstrates strong problem-solving, analytical, and technical skills with the ability to quickly learn new tools and technologies.
+                        Motivated and results-oriented Software Developer with a strong foundation in web development, data processing, ETL, and automation. Experienced in web scraping, production support, troubleshooting, and delivering accurate, high-quality data solutions. Proficient in React, TypeScript, JavaScript, Tailwind CSS, HTML, CSS, SQL, and Git, with a passion for developing responsive, scalable, and maintainable applications. Recognized for quickly learning new technologies, solving complex problems, and collaborating effectively to deliver business-driven solutions. Eager to contribute technical expertise, adaptability, and a continuous learning mindset to a dynamic development team.
                     </p>
                     <div className='flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max lg:mx-0'>
                         
@@ -33,7 +33,7 @@ export const HeroSection = () => {
                                     <div className='download-loader text-white hidden'></div>
                                 </div>
                                 <a href={resume} download='Michael-James-Jagmoc.pdf' className='pl-2 text-primary'>
-                                    Download resume
+                                    Download Resume
                                 </a>
                             </div>
                         </button>

@@ -10,7 +10,11 @@ export const AboutSection = () => {
                     More <span className='text-primary'>About</span> Me
                 </h2>
                 <p className='text-gray-400 text-base lg:text-lg mb-10 leading-relaxed'>
-                    I am a dedicated and results-oriented IT professional with experience in quality assurance testing, web scraping, data processing, and troubleshooting. I have worked on identifying and resolving system issues, ensuring data accuracy, and supporting the development of reliable software solutions. With a strong attention to detail and a passion for continuous learning, I am seeking an opportunity to grow as a Software Developer where I can apply my technical skills, contribute to innovative projects, and further expand my expertise in software development and modern technologies.
+                    I am a results-driven IT professional with extensive experience in quality assurance testing, web scraping, ETL (Extract, Transform, Load) processes, data processing, and production support. Throughout my career, I have successfully identified and resolved system issues, ensured data accuracy and integrity, optimized data extraction workflows, and contributed to the delivery of reliable, high-quality software solutions.
+                    <br/><br/>
+                    Driven by a passion for technology and continuous learning, I have expanded my expertise in modern web development, building projects using React, TypeScript, JavaScript, Tailwind CSS, HTML, CSS, SQL, and Git. I enjoy solving complex problems, developing efficient solutions, and creating applications that deliver an excellent user experience.
+                    <br/><br/>
+                    As an aspiring Software Developer, I am eager to bring my strong analytical mindset, attention to detail, adaptability, and commitment to excellence to a collaborative team. I am excited to contribute to innovative projects, continuously enhance my technical skills, and create impactful software solutions that deliver real business value.
                 </p>
                 
             </div>
