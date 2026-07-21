@@ -62,7 +62,12 @@ export const Experience = () => {
       company: 'Innodata Knowledge Services, Inc.',
       date: 'July 2011 - June 2013',
       desc: [
-        'Handled data processing tasks, ensuring quality and meeting daily production targets.',
+        'Assisted with digital content management and formatting to ensure accurate and consistent outputs.',
+        'Used basic HTML to perform content updates and formatting adjustments.',
+        'Utilized Microsoft Excel and Microsoft Word for data processing, reports, documentation, and record management.',
+        'Collaborated with team members to complete assigned tasks and meet project deadlines.',
+        'Reviewed and validated work to ensure accuracy, consistency, and adherence to established quality standards.',
+        'Followed established processes and procedures while maintaining productivity and attention to detail.',
       ],
     },
   ]
