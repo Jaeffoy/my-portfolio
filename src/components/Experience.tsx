@@ -49,7 +49,7 @@ export const Experience = () => {
       id: 2,
       role: 'Transaction Processor',
       company: 'Conduent',
-      date: 'July 2013 - March 2022',
+      date: 'March 2014 - April 2022',
       desc: [
         'Receive, process, classify, and transmit documents accurately according to client requirements and established procedures.',
         'Process documents received through electronic and hard-copy formats, ensuring completeness and accuracy.',
