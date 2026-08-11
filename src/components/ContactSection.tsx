@@ -22,8 +22,8 @@ export const ContactSection = () => {
             id: 2,
             icon: FaPhone,
             title: 'Phone',
-            value: '+639912182511',
-            link: 'tel: +639912182511'   
+            value: '+639556351541',
+            link: 'tel: +639556351541'   
         },
         {
             id: 3,
