@@ -33,8 +33,8 @@ export const Header = () => {
           </div>
 
           <div className="text-left">
-            <h1 className="text-white text-lg font-bold leading-none">
-              Michael James Jagmoc
+            <h1 className="text-white text-xl font-bold tracking-tight leading-none">
+              Portfolio<span className="text-blue-400">.</span>
             </h1>
 
           </div>
