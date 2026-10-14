@@ -67,7 +67,7 @@ export const Experience = () => {
       id: 3,
       role: 'Production Associate',
       company: 'Innodata Knowledge Services, Inc.',
-      date: 'July 2011 - June 2013',
+      date: 'July 2011 - September 2013',
       desc: [
         'Assisted with digital content management and formatting to ensure accurate and consistent outputs.',
         'Used basic HTML to perform content updates and formatting adjustments.',
